@@ -1,0 +1,173 @@
+#    Arlequin input file - Araneus venatrix (populations of clade I)
+#    ===================================================================
+
+[Profile]
+   Title = "Arlequin input file - Araneus venatrix (populations of clade I)"
+   NbSamples = 17
+   DataType = DNA
+   GenotypicData = 0
+   LocusSeparator = NONE
+   MissingData = "?"
+   CompDistMatrix = 1
+
+
+[Data]
+
+[[HaplotypeDefinition]]
+   HaplList = EXTERN "Arlequin_COI_haplotypes.hap"
+
+[[Samples]]
+   SampleName = "Alta_Floresta"
+   SampleSize = 48
+   SampleData= {
+       Hap_25 1
+       Hap_26 42
+       Hap_27 1
+       Hap_28 3
+       Hap_29 1
+}
+   SampleName = "Belem"
+   SampleSize = 1
+   SampleData= {
+       Hap_26 1
+}
+   SampleName = "Belo_Horizonte"
+   SampleSize = 2
+   SampleData= {
+       Hap_30 2
+}
+   SampleName = "Boa_Vista"
+   SampleSize = 10
+   SampleData= {
+       Hap_31 5
+       Hap_32 4
+       Hap_33 1
+}
+   SampleName = "Campo_Grande"
+   SampleSize = 10
+   SampleData= {
+       Hap_26 1
+       Hap_34 1
+       Hap_35 1
+       Hap_36 4
+       Hap_37 1
+       Hap_38 2
+}
+   SampleName = "Centenario_Sul"
+   SampleSize = 1
+   SampleData= {
+       Hap_38 1
+}
+   SampleName = "Cruzeiro_Sul"
+   SampleSize = 1
+   SampleData= {
+       Hap_26 1
+}
+   SampleName = "Macapa"
+   SampleSize = 9
+   SampleData= {
+       Hap_26 3
+       Hap_39 4
+       Hap_40 2
+}
+   SampleName = "Porto_Velho"
+   SampleSize = 1
+   SampleData= {
+       Hap_41 1
+}
+   SampleName = "Santarem"
+   SampleSize = 9
+   SampleData= {
+       Hap_26 4
+       Hap_42 1
+       Hap_43 3
+       Hap_44 1
+}
+   SampleName = "Sao_Luis"
+   SampleSize = 10
+   SampleData= {
+       Hap_26 2
+       Hap_45 4
+       Hap_46 1
+       Hap_47 2
+       Hap_48 1
+}
+   SampleName = "Teresina"
+   SampleSize = 8
+   SampleData= {
+       Hap_26 3
+       Hap_49 1
+       Hap_50 2
+       Hap_51 1
+       Hap_52 1
+}
+   SampleName = "Uberlandia"
+   SampleSize = 3
+   SampleData= {
+       Hap_25 1
+       Hap_30 1
+       Hap_53 1
+}
+   SampleName = "Mata_S_Joao"
+   SampleSize = 1
+   SampleData= {
+       Hap_54 1
+}
+   SampleName = "Aracaju"
+   SampleSize = 4
+   SampleData= {
+       Hap_55 3
+       Hap_56 1
+}
+   SampleName = "Maceio"
+   SampleSize = 7
+   SampleData= {
+       Hap_57 2
+       Hap_58 5
+}
+   SampleName = "S_Jose_Laje"
+   SampleSize = 10
+   SampleData= {
+       Hap_55 4
+       Hap_58 3
+       Hap_59 3
+}
+
+	[[Structure]]
+
+		StructureName="AMOVA among biomes - clade I"
+		NbGroups=5
+
+		Group={
+			"Alta_Floresta"
+			"Belem"
+			"Boa_Vista"
+			"Cruzeiro_Sul"
+			"Macapa"
+			"Porto_Velho"
+			"Santarem"
+			"Sao_Luis"
+		}
+
+		Group={
+			"Belo_Horizonte"
+			"Campo_Grande"
+			"Uberlandia"
+		}
+
+		Group={
+			"Centenario_Sul"
+		}
+
+		Group={
+			"Teresina"
+		}
+
+		Group={
+			"Mata_S_Joao"
+			"Aracaju"
+			"Maceio"
+			"S_Jose_Laje"
+		}
+
+

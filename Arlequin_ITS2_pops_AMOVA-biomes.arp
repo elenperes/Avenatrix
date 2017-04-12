@@ -1,0 +1,253 @@
+#    Arlequin input file - Araneus venatrix (populations)
+#    ===================================================================
+
+[Profile]
+   Title = "Arlequin input file - Araneus venatrix (populations)"
+   NbSamples = 27
+   DataType = DNA
+   GenotypicData = 0
+   LocusSeparator = NONE
+   MissingData = "?"
+   CompDistMatrix = 1
+
+
+[Data]
+
+[[HaplotypeDefinition]]
+   HaplList = EXTERN "Arlequin_ITS2_haplotypes.hap"
+
+[[Samples]]
+   SampleName = "Alta_Floresta"
+   SampleSize = 28
+   SampleData= {
+       Hap_1 1
+       Hap_2 1
+       Hap_3 6
+       Hap_4 3
+       Hap_5 1
+       Hap_6 11
+       Hap_7 1
+       Hap_8 2
+       Hap_9 2
+}
+   SampleName = "Aracaju"
+   SampleSize = 8
+   SampleData= {
+       Hap_10 6
+       Hap_11 2
+}
+   SampleName = "Belem"
+   SampleSize = 2
+   SampleData= {
+       Hap_12 1
+       Hap_13 1
+}
+   SampleName = "Boa_Vista"
+   SampleSize = 12
+   SampleData= {
+       Hap_1 2
+       Hap_14 1
+       Hap_15 2
+       Hap_16 1
+       Hap_17 1
+       Hap_18 2
+       Hap_19 1
+       Hap_20 1
+       Hap_21 1
+}
+   SampleName = "Campo_Grande"
+   SampleSize = 14
+   SampleData= {
+       Hap_3 1
+       Hap_6 2
+       Hap_22 4
+       Hap_23 3
+       Hap_24 4
+}
+   SampleName = "Centenario_Sul"
+   SampleSize = 2
+   SampleData= {
+       Hap_22 2
+}
+   SampleName = "Cruzeiro_Sul"
+   SampleSize = 2
+   SampleData= {
+       Hap_3 1
+       Hap_25 1
+}
+   SampleName = "Macapa"
+   SampleSize = 6
+   SampleData= {
+       Hap_6 1
+       Hap_24 1
+       Hap_26 3
+       Hap_27 1
+}
+   SampleName = "Maceio"
+   SampleSize = 14
+   SampleData= {
+       Hap_10 1
+       Hap_11 13
+}
+   SampleName = "Mata_S_Joao"
+   SampleSize = 2
+   SampleData= {
+       Hap_10 1
+       Hap_11 1
+}
+   SampleName = "Santarem"
+   SampleSize = 9
+   SampleData= {
+       Hap_1 2
+       Hap_18 2
+       Hap_28 3
+       Hap_29 2
+}
+   SampleName = "S_J_Laje"
+   SampleSize = 20
+   SampleData= {
+       Hap_10 1
+       Hap_11 12
+       Hap_30 6
+       Hap_31 1
+}
+   SampleName = "Sao_Luis"
+   SampleSize = 19
+   SampleData= {
+       Hap_13 1
+       Hap_27 1
+       Hap_32 6
+       Hap_33 2
+       Hap_34 1
+       Hap_35 2
+       Hap_36 4
+       Hap_37 1
+       Hap_38 1
+}
+   SampleName = "Teresina"
+   SampleSize = 5
+   SampleData= {
+       Hap_23 2
+       Hap_32 3
+}
+   SampleName = "Uberlandia"
+   SampleSize = 4
+   SampleData= {
+       Hap_6 4
+}
+   SampleName = "Atibaia"
+   SampleSize = 14
+   SampleData= {
+       Hap_39 14
+}
+   SampleName = "Campinas"
+   SampleSize = 4
+   SampleData= {
+       Hap_39 4
+}
+   SampleName = "Campo_Bom"
+   SampleSize = 2
+   SampleData= {
+       Hap_40 2
+}
+   SampleName = "Cataguases"
+   SampleSize = 8
+   SampleData= {
+       Hap_39 8
+}
+   SampleName = "Ibirama"
+   SampleSize = 6
+   SampleData= {
+       Hap_40 6
+}
+   SampleName = "Itatiaia"
+   SampleSize = 17
+   SampleData= {
+       Hap_39 16
+       Hap_41 1
+}
+   SampleName = "Jundiai"
+   SampleSize = 6
+   SampleData= {
+       Hap_39 5
+       Hap_42 1
+}
+   SampleName = "Linhares"
+   SampleSize = 28
+   SampleData= {
+       Hap_43 26
+       Hap_44 2
+}
+   SampleName = "Pinhalzinho"
+   SampleSize = 1
+   SampleData= {
+       Hap_39 1
+}
+   SampleName = "Sapiranga"
+   SampleSize = 22
+   SampleData= {
+       Hap_40 22
+}
+   SampleName = "Ubatuba"
+   SampleSize = 3
+   SampleData= {
+       Hap_39 3
+}
+   SampleName = "Vicosa"
+   SampleSize = 22
+   SampleData= {
+       Hap_39 20
+       Hap_45 2
+}
+
+
+
+
+	[[Structure]]
+
+		StructureName="AMOVA among biomes"
+		NbGroups=5
+
+		Group={
+			"Alta_Floresta"
+			"Belem"
+			"Boa_Vista"
+			"Cruzeiro_Sul"
+			"Macapa"
+			"Santarem"
+			"Sao_Luis"
+		}
+
+		Group={
+			"Aracaju"
+			"Maceio"
+			"Mata_S_Joao"
+			"S_J_Laje"
+		}
+
+		Group={
+			"Campo_Grande"
+			"Uberlandia"
+		}
+
+		Group={
+			"Centenario_Sul"
+			"Atibaia"
+			"Campinas"
+			"Campo_Bom"
+			"Cataguases"
+			"Ibirama"
+			"Itatiaia"
+			"Jundiai"
+			"Linhares"
+			"Pinhalzinho"
+			"Sapiranga"
+			"Ubatuba"
+			"Vicosa"
+		}
+
+		Group={
+			"Teresina"
+		}
+
+

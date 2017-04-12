@@ -1,0 +1,268 @@
+#    Arlequin input file - Araneus venatrix (populations)
+#    ===================================================================
+
+[Profile]
+   Title = "Arlequin input file - Araneus venatrix (populations)"
+   NbSamples = 30
+   DataType = DNA
+   GenotypicData = 0
+   LocusSeparator = NONE
+   MissingData = "?"
+   CompDistMatrix = 1
+
+
+[Data]
+
+[[HaplotypeDefinition]]
+   HaplList = EXTERN "Arlequin_COI_haplotypes.hap"
+
+[[Samples]]
+   SampleName = "Atibaia"
+   SampleSize = 19
+   SampleData= {
+       Hap_1 9
+       Hap_2 6
+       Hap_3 2
+       Hap_4 1
+       Hap_5 1
+}
+   SampleName = "Campinas"
+   SampleSize = 3
+   SampleData= {
+       Hap_1 1
+       Hap_3 1
+       Hap_6 1
+}
+   SampleName = "Campo_Bom"
+   SampleSize = 1
+   SampleData= {
+       Hap_7 1
+}
+   SampleName = "Cataguases"
+   SampleSize = 4
+   SampleData= {
+       Hap_8 1
+       Hap_9 1
+       Hap_10 1
+       Hap_11 1
+}
+   SampleName = "Gramado"
+   SampleSize = 1
+   SampleData= {
+       Hap_12 1
+}
+   SampleName = "Ibirama"
+   SampleSize = 2
+   SampleData= {
+       Hap_3 1
+       Hap_12 1
+}
+   SampleName = "Itatiaia"
+   SampleSize = 7
+   SampleData= {
+       Hap_5 7
+}
+   SampleName = "Jundiai"
+   SampleSize = 5
+   SampleData= {
+       Hap_1 1
+       Hap_3 2
+       Hap_13 1
+       Hap_14 1
+}
+   SampleName = "Linhares"
+   SampleSize = 12
+   SampleData= {
+       Hap_14 7
+       Hap_15 2
+       Hap_16 1
+       Hap_17 1
+       Hap_18 1
+}
+   SampleName = "Pinhalzinho"
+   SampleSize = 4
+   SampleData= {
+       Hap_2 2
+       Hap_3 1
+       Hap_14 1
+}
+   SampleName = "Sapiranga"
+   SampleSize = 16
+   SampleData= {
+       Hap_7 16
+}
+   SampleName = "Ubatuba"
+   SampleSize = 6
+   SampleData= {
+       Hap_1 3
+       Hap_3 1
+       Hap_19 2
+}
+   SampleName = "Vicosa"
+   SampleSize = 18
+   SampleData= {
+       Hap_20 1
+       Hap_21 2
+       Hap_22 10
+       Hap_23 4
+       Hap_24 1
+}
+   SampleName = "Alta_Floresta"
+   SampleSize = 48
+   SampleData= {
+       Hap_25 1
+       Hap_26 42
+       Hap_27 1
+       Hap_28 3
+       Hap_29 1
+}
+   SampleName = "Belem"
+   SampleSize = 1
+   SampleData= {
+       Hap_26 1
+}
+   SampleName = "Belo_Horizonte"
+   SampleSize = 2
+   SampleData= {
+       Hap_30 2
+}
+   SampleName = "Boa_Vista"
+   SampleSize = 10
+   SampleData= {
+       Hap_31 5
+       Hap_32 4
+       Hap_33 1
+}
+   SampleName = "Campo_Grande"
+   SampleSize = 10
+   SampleData= {
+       Hap_26 1
+       Hap_34 1
+       Hap_35 1
+       Hap_36 4
+       Hap_37 1
+       Hap_38 2
+}
+   SampleName = "Centenario_Sul"
+   SampleSize = 1
+   SampleData= {
+       Hap_38 1
+}
+   SampleName = "Cruzeiro_Sul"
+   SampleSize = 1
+   SampleData= {
+       Hap_26 1
+}
+   SampleName = "Macapa"
+   SampleSize = 9
+   SampleData= {
+       Hap_26 3
+       Hap_39 4
+       Hap_40 2
+}
+   SampleName = "Porto_Velho"
+   SampleSize = 1
+   SampleData= {
+       Hap_41 1
+}
+   SampleName = "Santarem"
+   SampleSize = 9
+   SampleData= {
+       Hap_26 4
+       Hap_42 1
+       Hap_43 3
+       Hap_44 1
+}
+   SampleName = "Sao_Luis"
+   SampleSize = 10
+   SampleData= {
+       Hap_26 2
+       Hap_45 4
+       Hap_46 1
+       Hap_47 2
+       Hap_48 1
+}
+   SampleName = "Teresina"
+   SampleSize = 8
+   SampleData= {
+       Hap_26 3
+       Hap_49 1
+       Hap_50 2
+       Hap_51 1
+       Hap_52 1
+}
+   SampleName = "Uberlandia"
+   SampleSize = 3
+   SampleData= {
+       Hap_25 1
+       Hap_30 1
+       Hap_53 1
+}
+   SampleName = "Mata_S_Joao"
+   SampleSize = 1
+   SampleData= {
+       Hap_54 1
+}
+   SampleName = "Aracaju"
+   SampleSize = 4
+   SampleData= {
+       Hap_55 3
+       Hap_56 1
+}
+   SampleName = "Maceio"
+   SampleSize = 7
+   SampleData= {
+       Hap_57 2
+       Hap_58 5
+}
+   SampleName = "S_Jose_Laje"
+   SampleSize = 10
+   SampleData= {
+       Hap_55 4
+       Hap_58 3
+       Hap_59 3
+}
+
+
+	[[Structure]]
+
+		StructureName="AMOVA between clades"
+		NbGroups=2
+
+		Group={
+			"Atibaia"
+			"Campinas"
+			"Campo_Bom"
+			"Cataguases"
+			"Gramado"
+			"Ibirama"
+			"Itatiaia"
+			"Jundiai"
+			"Linhares"
+			"Pinhalzinho"
+			"Sapiranga"
+			"Ubatuba"
+			"Vicosa"
+		}
+
+		Group={
+			"Alta_Floresta"
+			"Belem"
+			"Belo_Horizonte"
+			"Boa_Vista"
+			"Campo_Grande"
+			"Centenario_Sul"
+			"Cruzeiro_Sul"
+			"Macapa"
+			"Porto_Velho"
+			"Santarem"
+			"Sao_Luis"
+			"Teresina"
+			"Uberlandia"
+			"Mata_S_Joao"
+			"Aracaju"
+			"Maceio"
+			"S_Jose_Laje"
+		}
+
+

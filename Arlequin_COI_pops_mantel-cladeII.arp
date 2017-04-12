@@ -1,0 +1,166 @@
+#    Arlequin input file - Araneus venatrix (populations of clade II)
+#    ===================================================================
+
+[Profile]
+   Title = "Arlequin input file - Araneus venatrix (populations of clade II)"
+   NbSamples = 13
+   DataType = DNA
+   GenotypicData = 0
+   LocusSeparator = NONE
+   MissingData = "?"
+   CompDistMatrix = 1
+
+
+[Data]
+
+[[HaplotypeDefinition]]
+   HaplList = EXTERN "Arlequin_COI_haplotypes.hap"
+
+[[Samples]]
+   SampleName = "Atibaia"
+   SampleSize = 19
+   SampleData= {
+       Hap_1 9
+       Hap_2 6
+       Hap_3 2
+       Hap_4 1
+       Hap_5 1
+}
+   SampleName = "Campinas"
+   SampleSize = 3
+   SampleData= {
+       Hap_1 1
+       Hap_3 1
+       Hap_6 1
+}
+   SampleName = "Campo_Bom"
+   SampleSize = 1
+   SampleData= {
+       Hap_7 1
+}
+   SampleName = "Cataguases"
+   SampleSize = 4
+   SampleData= {
+       Hap_8 1
+       Hap_9 1
+       Hap_10 1
+       Hap_11 1
+}
+   SampleName = "Gramado"
+   SampleSize = 1
+   SampleData= {
+       Hap_12 1
+}
+   SampleName = "Ibirama"
+   SampleSize = 2
+   SampleData= {
+       Hap_3 1
+       Hap_12 1
+}
+   SampleName = "Itatiaia"
+   SampleSize = 7
+   SampleData= {
+       Hap_5 7
+}
+   SampleName = "Jundiai"
+   SampleSize = 5
+   SampleData= {
+       Hap_1 1
+       Hap_3 2
+       Hap_13 1
+       Hap_14 1
+}
+   SampleName = "Linhares"
+   SampleSize = 12
+   SampleData= {
+       Hap_14 7
+       Hap_15 2
+       Hap_16 1
+       Hap_17 1
+       Hap_18 1
+}
+   SampleName = "Pinhalzinho"
+   SampleSize = 4
+   SampleData= {
+       Hap_2 2
+       Hap_3 1
+       Hap_14 1
+}
+   SampleName = "Sapiranga"
+   SampleSize = 16
+   SampleData= {
+       Hap_7 16
+}
+   SampleName = "Ubatuba"
+   SampleSize = 6
+   SampleData= {
+       Hap_1 3
+       Hap_3 1
+       Hap_19 2
+}
+   SampleName = "Vicosa"
+   SampleSize = 18
+   SampleData= {
+       Hap_20 1
+       Hap_21 2
+       Hap_22 10
+       Hap_23 4
+       Hap_24 1
+}
+
+
+	[[Mantel]]
+	#size of the distance matrix:
+	MatrixSize= 13
+	#number of declared matrixes:
+	MatrixNumber=2
+	#what to be taken as YMatrix
+	YMatrix="Fst"
+	#Labels to identify matrix entry and Population
+	YMatrixLabels ={
+			"Atibaia"
+			"Campinas"
+			"Campo_Bom"
+			"Cataguases"
+			"Gramado"
+			"Ibirama"
+			"Itatiaia"
+			"Jundiai"
+			"Linhares"
+			"Pinhalzinho"
+			"Sapiranga"
+			"Ubatuba"
+			"Vicosa"
+		}
+	# geographical distance matrix: X1
+	DistMatMantel={
+	0.00																													
+	56108.58	0.00																												
+	841529.47	854631.12	0.00																											
+	454564.52	477435.15	1248781.73	0.00																										
+	806952.51	820218.17	34603.44	1214631.67	0.00																									
+	515967.14	526875.94	328014.22	939589.68	293757.77	0.00																								
+	224257.10	252907.51	1030640.49	231303.58	996187.31	714697.20	0.00																							
+	32273.72	36204.24	828048.56	482298.74	793542.71	501026.30	253223.14	0.00																						
+	831489.21	848038.95	1626568.82	381569.35	1592653.97	1320685.16	611329.14	857376.52	0.00																					
+	57800.48	50996.93	894178.44	426483.42	859653.11	567363.95	203179.58	66454.40	797331.03	0.00																				
+	835482.72	848705.80	6276.120	1242521.97	28531.76	322161.52	1024426.33	822065.05	1620296.37	888180.42	0.00																			
+	157825.23	206454.70	914743.22	336490.07	880405.75	603100.49	119486.64	190069.54	717766.83	170114.03	908505.40	0.00																		
+	476560.33	491914.49	1290694.52	70054.39	1256327.14	976146.51	261465.97	501717.90	356125.60	441212.47	1284461.19	376014.92	0.00																	
+	1809311.33	1754311.97	2269493.29	1936489.17	2247369.59	2038157.21	1873977.93	1788123.35	2039827.74	1766719.71	2266672.09	1922388.20	1880845.76	0.00																
+}
+	UsedYMatrixLabels ={
+			"Atibaia"
+			"Campinas"
+			"Campo_Bom"
+			"Cataguases"
+			"Gramado"
+			"Ibirama"
+			"Itatiaia"
+			"Jundiai"
+			"Linhares"
+			"Pinhalzinho"
+			"Sapiranga"
+			"Ubatuba"
+			"Vicosa"
+}

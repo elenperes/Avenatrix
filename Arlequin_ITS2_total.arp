@@ -1,0 +1,69 @@
+#    Arlequin input file - Araneus venatrix (total)
+#    ===================================================================
+
+[Profile]
+   Title = "Arlequin input file - Araneus venatrix (total)"
+   NbSamples = 1
+   DataType = DNA
+   GenotypicData = 0
+   LocusSeparator = NONE
+   MissingData = "?"
+   CompDistMatrix = 1
+
+
+[Data]
+
+[[HaplotypeDefinition]]
+   HaplList = EXTERN "Arlequin_ITS2_haplotypes.hap"
+
+[[Samples]]
+   SampleName = "All_Seqs"
+   SampleSize = 280
+   SampleData = {
+       Hap_1 5
+       Hap_2 1
+       Hap_3 8
+       Hap_4 3
+       Hap_5 1
+       Hap_6 18
+       Hap_7 1
+       Hap_8 2
+       Hap_9 2
+       Hap_10 9
+       Hap_11 28
+       Hap_12 1
+       Hap_13 2
+       Hap_14 1
+       Hap_15 2
+       Hap_16 1
+       Hap_17 1
+       Hap_18 4
+       Hap_19 1
+       Hap_20 1
+       Hap_21 1
+       Hap_22 6
+       Hap_23 5
+       Hap_24 5
+       Hap_25 1
+       Hap_26 3
+       Hap_27 2
+       Hap_28 3
+       Hap_29 2
+       Hap_30 6
+       Hap_31 1
+       Hap_32 9
+       Hap_33 2
+       Hap_34 1
+       Hap_35 2
+       Hap_36 4
+       Hap_37 1
+       Hap_38 1
+       Hap_39 71
+       Hap_40 30
+       Hap_41 1
+       Hap_42 1
+       Hap_43 26
+       Hap_44 2
+       Hap_45 2
+}
+

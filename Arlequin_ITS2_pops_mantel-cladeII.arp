@@ -1,0 +1,136 @@
+#    Arlequin input file - Araneus venatrix (populations of clade II)
+#    ===================================================================
+
+[Profile]
+   Title = "Arlequin input file - Araneus venatrix (populations od clade II)"
+   NbSamples = 12
+   DataType = DNA
+   GenotypicData = 0
+   LocusSeparator = NONE
+   MissingData = "?"
+   CompDistMatrix = 1
+
+
+[Data]
+
+[[HaplotypeDefinition]]
+   HaplList = EXTERN "Arlequin_ITS2_haplotypes.hap"
+
+[[Samples]]
+   SampleName = "Atibaia"
+   SampleSize = 14
+   SampleData= {
+       Hap_39 14
+}
+   SampleName = "Campinas"
+   SampleSize = 4
+   SampleData= {
+       Hap_39 4
+}
+   SampleName = "Campo_Bom"
+   SampleSize = 2
+   SampleData= {
+       Hap_40 2
+}
+   SampleName = "Cataguases"
+   SampleSize = 8
+   SampleData= {
+       Hap_39 8
+}
+   SampleName = "Ibirama"
+   SampleSize = 6
+   SampleData= {
+       Hap_40 6
+}
+   SampleName = "Itatiaia"
+   SampleSize = 17
+   SampleData= {
+       Hap_39 16
+       Hap_41 1
+}
+   SampleName = "Jundiai"
+   SampleSize = 6
+   SampleData= {
+       Hap_39 5
+       Hap_42 1
+}
+   SampleName = "Linhares"
+   SampleSize = 28
+   SampleData= {
+       Hap_43 26
+       Hap_44 2
+}
+   SampleName = "Pinhalzinho"
+   SampleSize = 1
+   SampleData= {
+       Hap_39 1
+}
+   SampleName = "Sapiranga"
+   SampleSize = 22
+   SampleData= {
+       Hap_40 22
+}
+   SampleName = "Ubatuba"
+   SampleSize = 3
+   SampleData= {
+       Hap_39 3
+}
+   SampleName = "Vicosa"
+   SampleSize = 22
+   SampleData= {
+       Hap_39 20
+       Hap_45 2
+}
+
+
+	[[Mantel]]
+	#size of the distance matrix:
+	MatrixSize= 12
+	#number of declared matrixes:
+	MatrixNumber=2
+	#what to be taken as YMatrix
+	YMatrix="Fst"
+	#Labels to identify matrix entry and Population
+	YMatrixLabels ={
+			"Atibaia"
+			"Campinas"
+			"Campo_Bom"
+			"Cataguases"
+			"Ibirama"
+			"Itatiaia"
+			"Jundiai"
+			"Linhares"
+			"Pinhalzinho"
+			"Sapiranga"
+			"Ubatuba"
+			"Vicosa"
+		}
+	# geographical distance matrix: X1
+	DistMatMantel={
+0.00											
+56.11	0.00										
+841.53	854.63	0.00									
+454.56	477.44	1248.78	0.00								
+515.97	526.88	328.01	939.59	0.00							
+224.26	252.91	1030.64	231.30	714.70	0.00						
+32.27	36.20	828.05	482.30	501.03	253.22	0.00					
+831.49	848.04	1626.57	381.57	1320.69	611.33	857.38	0.00				
+57.80	51.00	894.18	426.48	567.36	203.18	66.45	797.33	0.00			
+835.48	848.71	6.28	1242.52	322.16	1024.43	822.07	1620.30	888.18	0.00		
+157.83	206.45	914.74	336.49	603.10	119.49	190.07	717.77	170.11	908.51	0.00	
+476.56	491.91	1290.69	70.05	976.15	261.47	501.72	356.13	441.21	1284.46	376.01	0.00
+}
+	UsedYMatrixLabels ={
+			"Atibaia"
+			"Campinas"
+			"Campo_Bom"
+			"Cataguases"
+			"Ibirama"
+			"Itatiaia"
+			"Jundiai"
+			"Linhares"
+			"Pinhalzinho"
+			"Sapiranga"
+			"Ubatuba"
+			"Vicosa"
+}

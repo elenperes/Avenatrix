@@ -1,0 +1,299 @@
+#    Arlequin input file - Araneus venatrix (populations)
+#    ===================================================================
+
+[Profile]
+   Title = "Arlequin input file - Araneus venatrix (populations)"
+   NbSamples = 27
+   DataType = DNA
+   GenotypicData = 0
+   LocusSeparator = NONE
+   MissingData = "?"
+   CompDistMatrix = 1
+
+
+[Data]
+
+[[HaplotypeDefinition]]
+   HaplList = EXTERN "Arlequin_ITS2_haplotypes.hap"
+
+[[Samples]]
+   SampleName = "Alta_Floresta"
+   SampleSize = 28
+   SampleData= {
+       Hap_1 1
+       Hap_2 1
+       Hap_3 6
+       Hap_4 3
+       Hap_5 1
+       Hap_6 11
+       Hap_7 1
+       Hap_8 2
+       Hap_9 2
+}
+   SampleName = "Aracaju"
+   SampleSize = 8
+   SampleData= {
+       Hap_10 6
+       Hap_11 2
+}
+   SampleName = "Belem"
+   SampleSize = 2
+   SampleData= {
+       Hap_12 1
+       Hap_13 1
+}
+   SampleName = "Boa_Vista"
+   SampleSize = 12
+   SampleData= {
+       Hap_1 2
+       Hap_14 1
+       Hap_15 2
+       Hap_16 1
+       Hap_17 1
+       Hap_18 2
+       Hap_19 1
+       Hap_20 1
+       Hap_21 1
+}
+   SampleName = "Campo_Grande"
+   SampleSize = 14
+   SampleData= {
+       Hap_3 1
+       Hap_6 2
+       Hap_22 4
+       Hap_23 3
+       Hap_24 4
+}
+   SampleName = "Centenario_Sul"
+   SampleSize = 2
+   SampleData= {
+       Hap_22 2
+}
+   SampleName = "Cruzeiro_Sul"
+   SampleSize = 2
+   SampleData= {
+       Hap_3 1
+       Hap_25 1
+}
+   SampleName = "Macapa"
+   SampleSize = 6
+   SampleData= {
+       Hap_6 1
+       Hap_24 1
+       Hap_26 3
+       Hap_27 1
+}
+   SampleName = "Maceio"
+   SampleSize = 14
+   SampleData= {
+       Hap_10 1
+       Hap_11 13
+}
+   SampleName = "Mata_S_Joao"
+   SampleSize = 2
+   SampleData= {
+       Hap_10 1
+       Hap_11 1
+}
+   SampleName = "Santarem"
+   SampleSize = 9
+   SampleData= {
+       Hap_1 2
+       Hap_18 2
+       Hap_28 3
+       Hap_29 2
+}
+   SampleName = "S_J_Laje"
+   SampleSize = 20
+   SampleData= {
+       Hap_10 1
+       Hap_11 12
+       Hap_30 6
+       Hap_31 1
+}
+   SampleName = "Sao_Luis"
+   SampleSize = 19
+   SampleData= {
+       Hap_13 1
+       Hap_27 1
+       Hap_32 6
+       Hap_33 2
+       Hap_34 1
+       Hap_35 2
+       Hap_36 4
+       Hap_37 1
+       Hap_38 1
+}
+   SampleName = "Teresina"
+   SampleSize = 5
+   SampleData= {
+       Hap_23 2
+       Hap_32 3
+}
+   SampleName = "Uberlandia"
+   SampleSize = 4
+   SampleData= {
+       Hap_6 4
+}
+   SampleName = "Atibaia"
+   SampleSize = 14
+   SampleData= {
+       Hap_39 14
+}
+   SampleName = "Campinas"
+   SampleSize = 4
+   SampleData= {
+       Hap_39 4
+}
+   SampleName = "Campo_Bom"
+   SampleSize = 2
+   SampleData= {
+       Hap_40 2
+}
+   SampleName = "Cataguases"
+   SampleSize = 8
+   SampleData= {
+       Hap_39 8
+}
+   SampleName = "Ibirama"
+   SampleSize = 6
+   SampleData= {
+       Hap_40 6
+}
+   SampleName = "Itatiaia"
+   SampleSize = 17
+   SampleData= {
+       Hap_39 16
+       Hap_41 1
+}
+   SampleName = "Jundiai"
+   SampleSize = 6
+   SampleData= {
+       Hap_39 5
+       Hap_42 1
+}
+   SampleName = "Linhares"
+   SampleSize = 28
+   SampleData= {
+       Hap_43 26
+       Hap_44 2
+}
+   SampleName = "Pinhalzinho"
+   SampleSize = 1
+   SampleData= {
+       Hap_39 1
+}
+   SampleName = "Sapiranga"
+   SampleSize = 22
+   SampleData= {
+       Hap_40 22
+}
+   SampleName = "Ubatuba"
+   SampleSize = 3
+   SampleData= {
+       Hap_39 3
+}
+   SampleName = "Vicosa"
+   SampleSize = 22
+   SampleData= {
+       Hap_39 20
+       Hap_45 2
+}
+
+
+	[[Mantel]]
+	#size of the distance matrix:
+	MatrixSize= 27
+	#number of declared matrixes:
+	MatrixNumber=2
+	#what to be taken as YMatrix
+	YMatrix="Fst"
+	#Labels to identify matrix entry and Population
+	YMatrixLabels ={
+			"Alta_Floresta"
+			"Aracaju"
+			"Belem"
+			"Boa_Vista"
+			"Campo_Grande"
+			"Centenario_Sul"
+			"Cruzeiro_Sul"
+			"Macapa"
+			"Maceio"
+			"Mata_S_Joao"
+			"S_J_Laje"			
+			"Santarem"
+			"Sao_Luis"
+			"Teresina"
+			"Uberlandia"
+			"Atibaia"
+			"Campinas"
+			"Campo_Bom"
+			"Cataguases"
+			"Ibirama"
+			"Itatiaia"
+			"Jundiai"
+			"Linhares"
+			"Pinhalzinho"
+			"Sapiranga"
+			"Ubatuba"
+			"Vicosa"
+		}
+	# geographical distance matrix: X1
+	DistMatMantel={
+	0.00																										
+	2110.92	0.00																									
+	1281.56	1643.13	0.00																								
+	1490.94	3027.98	1439.20	0.00																							
+	1185.61	2168.26	2222.38	2663.85	0.00																						
+	1531.21	2034.25	2408.83	3022.13	427.50	0.00																					
+	1783.37	3893.89	2744.43	1748.41	2367.94	2793.59	0.00																				
+	1244.02	1969.43	332.18	1113.03	2308.62	2545.25	2516.11	0.00																			
+	2247.36	208.55	1659.52	3074.97	2366.97	2241.32	4025.34	1990.84	0.00																		
+	2017.41	215.63	1692.17	3032.45	1982.34	1829.98	3798.56	2008.93	422.38	0.00																	
+	835.01	2184.02	730.48	869.86	1994.51	2294.63	2019.25	512.17	2250.37	2173.49	0.00																
+	2221.84	237.30	1607.33	3026.56	2372.46	2257.57	3996.93	1939.01	60.25	452.77	2206.26	0.00															
+	1569.50	1206.09	499.88	1938.52	2289.55	2387.61	3181.11	827.11	1191.19	1294.13	1201.18	1135.67	0.00														
+	1589.38	920.21	737.47	2164.30	2155.79	2207.20	3285.69	1069.28	922.35	1002.60	1372.56	869.86	291.57	0.00													
+	1333.53	1497.19	1951.11	2777.85	702.10	554.89	2894.23	2132.95	1701.85	1300.30	1971.09	1714.41	1868.99	1669.82	0.00												
+	1809.31	1710.02	2437.49	3274.28	893.56	503.62	3246.98	2632.77	1917.90	1495.60	2476.16	1944.86	2309.64	2082.70	506.01	0.00											
+	1754.31	1706.61	2396.49	3220.94	842.37	461.00	3192.69	2587.80	1914.91	1493.13	2425.47	1940.27	2277.56	2054.74	457.37	56.11	0.00										
+	2269.49	2546.98	3157.30	3755.24	1093.43	760.57	3304.25	3304.03	2753.95	2331.72	3051.58	2782.94	3097.67	2891.37	1228.83	841.53	854.63	0.00									
+	1936.49	1313.05	2306.05	3325.96	1253.68	924.10	3527.93	2546.95	1516.67	1097.74	2482.03	1550.35	2090.26	1832.64	634.82	454.56	477.44	1248.78	0.00								
+	2038.16	2225.13	2855.10	3529.08	905.82	507.29	3227.48	3015.98	2432.71	2010.33	2791.25	2460.38	2778.00	2567.12	912.20	515.97	526.88	328.01	939.59	0.00							
+	1873.98	1517.96	2377.66	3307.65	1071.03	710.98	3392.85	2596.21	1724.23	1302.41	2484.20	1754.59	2206.17	1963.24	540.54	224.26	252.91	1030.64	231.30	714.70	0.00						
+	1788.12	1727.78	2432.07	3256.00	862.27	471.35	3217.26	2623.90	1935.89	1513.78	2461.40	1962.08	2310.94	2086.77	493.56	32.27	36.20	828.05	482.30	501.03	253.22	0.00					
+	2039.83	967.95	2178.76	3332.23	1554.74	1272.89	3724.80	2452.64	1164.21	757.57	2467.36	1203.36	1891.29	1613.81	870.39	831.49	848.04	1626.57	381.57	1320.69	611.33	857.38	0.00				
+	1766.72	1661.52	2380.68	3227.23	881.94	508.55	3225.42	2577.48	1869.66	1447.61	2425.29	1895.73	2251.85	2025.26	454.23	57.80	51.00	894.18	426.48	567.36	203.18	66.45	797.33	0.00			
+	2266.67	2540.81	3152.70	3752.67	1091.17	756.71	3304.79	3299.85	2747.77	2325.54	3048.14	2776.78	3092.42	2885.90	1223.63	835.48	848.71	6.28	1242.52	322.16	1024.43	822.07	1620.30	888.18	0.00		
+	1922.39	1636.04	2476.76	3372.28	1048.80	661.18	3395.53	2687.94	1841.94	1420.44	2559.02	1872.85	2316.84	2077.09	594.63	157.83	206.45	914.74	336.49	603.10	119.49	190.07	717.77	170.11	908.51	0.00	
+	1880.85	1262.06	2236.06	3262.20	1235.44	924.27	3488.18	2477.59	1467.15	1046.45	2416.27	1499.19	2021.21	1764.63	594.14	476.56	491.91	1290.69	70.05	976.15	261.47	501.72	356.13	441.21	1284.46	376.01	0.00
+}
+	UsedYMatrixLabels ={
+			"Alta_Floresta"
+			"Aracaju"
+			"Belem"
+			"Boa_Vista"
+			"Campo_Grande"
+			"Centenario_Sul"
+			"Cruzeiro_Sul"
+			"Macapa"
+			"Maceio"
+			"Mata_S_Joao"
+			"S_J_Laje"			
+			"Santarem"
+			"Sao_Luis"
+			"Teresina"
+			"Uberlandia"
+			"Atibaia"
+			"Campinas"
+			"Campo_Bom"
+			"Cataguases"
+			"Ibirama"
+			"Itatiaia"
+			"Jundiai"
+			"Linhares"
+			"Pinhalzinho"
+			"Sapiranga"
+			"Ubatuba"
+			"Vicosa"
+}

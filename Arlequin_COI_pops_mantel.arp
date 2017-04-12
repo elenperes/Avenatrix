@@ -1,0 +1,331 @@
+#    Arlequin input file - Araneus venatrix (populations)
+#    ===================================================================
+
+[Profile]
+   Title = "Arlequin input file - Araneus venatrix (populations)"
+   NbSamples = 30
+   DataType = DNA
+   GenotypicData = 0
+   LocusSeparator = NONE
+   MissingData = "?"
+   CompDistMatrix = 1
+
+
+[Data]
+
+[[HaplotypeDefinition]]
+   HaplList = EXTERN "Arlequin_COI_haplotypes.hap"
+
+[[Samples]]
+   SampleName = "Atibaia"
+   SampleSize = 19
+   SampleData= {
+       Hap_1 9
+       Hap_2 6
+       Hap_3 2
+       Hap_4 1
+       Hap_5 1
+}
+   SampleName = "Campinas"
+   SampleSize = 3
+   SampleData= {
+       Hap_1 1
+       Hap_3 1
+       Hap_6 1
+}
+   SampleName = "Campo_Bom"
+   SampleSize = 1
+   SampleData= {
+       Hap_7 1
+}
+   SampleName = "Cataguases"
+   SampleSize = 4
+   SampleData= {
+       Hap_8 1
+       Hap_9 1
+       Hap_10 1
+       Hap_11 1
+}
+   SampleName = "Gramado"
+   SampleSize = 1
+   SampleData= {
+       Hap_12 1
+}
+   SampleName = "Ibirama"
+   SampleSize = 2
+   SampleData= {
+       Hap_3 1
+       Hap_12 1
+}
+   SampleName = "Itatiaia"
+   SampleSize = 7
+   SampleData= {
+       Hap_5 7
+}
+   SampleName = "Jundiai"
+   SampleSize = 5
+   SampleData= {
+       Hap_1 1
+       Hap_3 2
+       Hap_13 1
+       Hap_14 1
+}
+   SampleName = "Linhares"
+   SampleSize = 12
+   SampleData= {
+       Hap_14 7
+       Hap_15 2
+       Hap_16 1
+       Hap_17 1
+       Hap_18 1
+}
+   SampleName = "Pinhalzinho"
+   SampleSize = 4
+   SampleData= {
+       Hap_2 2
+       Hap_3 1
+       Hap_14 1
+}
+   SampleName = "Sapiranga"
+   SampleSize = 16
+   SampleData= {
+       Hap_7 16
+}
+   SampleName = "Ubatuba"
+   SampleSize = 6
+   SampleData= {
+       Hap_1 3
+       Hap_3 1
+       Hap_19 2
+}
+   SampleName = "Vicosa"
+   SampleSize = 18
+   SampleData= {
+       Hap_20 1
+       Hap_21 2
+       Hap_22 10
+       Hap_23 4
+       Hap_24 1
+}
+   SampleName = "Alta_Floresta"
+   SampleSize = 48
+   SampleData= {
+       Hap_25 1
+       Hap_26 42
+       Hap_27 1
+       Hap_28 3
+       Hap_29 1
+}
+   SampleName = "Belem"
+   SampleSize = 1
+   SampleData= {
+       Hap_26 1
+}
+   SampleName = "Belo_Horizonte"
+   SampleSize = 2
+   SampleData= {
+       Hap_30 2
+}
+   SampleName = "Boa_Vista"
+   SampleSize = 10
+   SampleData= {
+       Hap_31 5
+       Hap_32 4
+       Hap_33 1
+}
+   SampleName = "Campo_Grande"
+   SampleSize = 10
+   SampleData= {
+       Hap_26 1
+       Hap_34 1
+       Hap_35 1
+       Hap_36 4
+       Hap_37 1
+       Hap_38 2
+}
+   SampleName = "Centenario_Sul"
+   SampleSize = 1
+   SampleData= {
+       Hap_38 1
+}
+   SampleName = "Cruzeiro_Sul"
+   SampleSize = 1
+   SampleData= {
+       Hap_26 1
+}
+   SampleName = "Macapa"
+   SampleSize = 9
+   SampleData= {
+       Hap_26 3
+       Hap_39 4
+       Hap_40 2
+}
+   SampleName = "Porto_Velho"
+   SampleSize = 1
+   SampleData= {
+       Hap_41 1
+}
+   SampleName = "Santarem"
+   SampleSize = 9
+   SampleData= {
+       Hap_26 4
+       Hap_42 1
+       Hap_43 3
+       Hap_44 1
+}
+   SampleName = "Sao_Luis"
+   SampleSize = 10
+   SampleData= {
+       Hap_26 2
+       Hap_45 4
+       Hap_46 1
+       Hap_47 2
+       Hap_48 1
+}
+   SampleName = "Teresina"
+   SampleSize = 8
+   SampleData= {
+       Hap_26 3
+       Hap_49 1
+       Hap_50 2
+       Hap_51 1
+       Hap_52 1
+}
+   SampleName = "Uberlandia"
+   SampleSize = 3
+   SampleData= {
+       Hap_25 1
+       Hap_30 1
+       Hap_53 1
+}
+   SampleName = "Mata_S_Joao"
+   SampleSize = 1
+   SampleData= {
+       Hap_54 1
+}
+   SampleName = "Aracaju"
+   SampleSize = 4
+   SampleData= {
+       Hap_55 3
+       Hap_56 1
+}
+   SampleName = "Maceio"
+   SampleSize = 7
+   SampleData= {
+       Hap_57 2
+       Hap_58 5
+}
+   SampleName = "S_Jose_Laje"
+   SampleSize = 10
+   SampleData= {
+       Hap_55 4
+       Hap_58 3
+       Hap_59 3
+}
+
+
+	[[Mantel]]
+	#size of the distance matrix:
+	MatrixSize= 30
+	#number of declared matrixes:
+	MatrixNumber=2
+	#what to be taken as YMatrix
+	YMatrix="Fst"
+	#Labels to identify matrix entry and Population
+	YMatrixLabels ={
+			"Atibaia"
+			"Campinas"
+			"Campo_Bom"
+			"Cataguases"
+			"Gramado"
+			"Ibirama"
+			"Itatiaia"
+			"Jundiai"
+			"Linhares"
+			"Pinhalzinho"
+			"Sapiranga"
+			"Ubatuba"
+			"Vicosa"
+			"Alta_Floresta"
+			"Belem"
+			"Belo_Horizonte"
+			"Boa_Vista"
+			"Campo_Grande"
+			"Centenario_Sul"
+			"Cruzeiro_Sul"
+			"Macapa"
+			"Porto_Velho"
+			"Santarem"
+			"Sao_Luis"
+			"Teresina"
+			"Uberlandia"
+			"Mata_S_Joao"
+			"Aracaju"
+			"Maceio"
+			"S_Jose_Laje"
+		}
+	# geographical distance matrix: X1
+	DistMatMantel={
+	0.00																													
+	56108.58	0.00																												
+	841529.47	854631.12	0.00																											
+	454564.52	477435.15	1248781.73	0.00																										
+	806952.51	820218.17	34603.44	1214631.67	0.00																									
+	515967.14	526875.94	328014.22	939589.68	293757.77	0.00																								
+	224257.10	252907.51	1030640.49	231303.58	996187.31	714697.20	0.00																							
+	32273.72	36204.24	828048.56	482298.74	793542.71	501026.30	253223.14	0.00																						
+	831489.21	848038.95	1626568.82	381569.35	1592653.97	1320685.16	611329.14	857376.52	0.00																					
+	57800.48	50996.93	894178.44	426483.42	859653.11	567363.95	203179.58	66454.40	797331.03	0.00																				
+	835482.72	848705.80	6276.120	1242521.97	28531.76	322161.52	1024426.33	822065.05	1620296.37	888180.42	0.00																			
+	157825.23	206454.70	914743.22	336490.07	880405.75	603100.49	119486.64	190069.54	717766.83	170114.03	908505.40	0.00																		
+	476560.33	491914.49	1290694.52	70054.39	1256327.14	976146.51	261465.97	501717.90	356125.60	441212.47	1284461.19	376014.92	0.00																	
+	1809311.33	1754311.97	2269493.29	1936489.17	2247369.59	2038157.21	1873977.93	1788123.35	2039827.74	1766719.71	2266672.09	1922388.20	1880845.76	0.00																
+	2437485.63	2396487.45	3157303.77	2306050.51	3127219.24	2855097.02	2377662.93	2432065.28	2178762.03	2380683.16	3152697.92	2476761.01	2236062.03	1281562.78	0.00															
+	464378.26	462107.13	1304324.41	211820.98	1269721.02	980130.96	294028.72	482059.12	431761.15	415929.69	1298219.34	411959.91	151159.26	1729779.90	2111716.13	0.00														
+	3274283.73	3220940.95	3755244.21	3325960.14	3734248.84	3529084.98	3307648.03	3255998.16	3332230.97	3227233.84	3752669.92	3372284.24	3262197.88	1490936.27	1439204.71	3114152.60	0.00													
+	893557.95	842367.74	1093432.75	1253675.52	1074184.90	905819.34	1071030.89	862267.32	1554743.91	881939.11	1091172.53	1048804.53	1235438.83	1185609.77	2222375.45	1124456.53	2663845.67	0.00												
+	503617.57	461004.09	760573.56	924102.97	733800.23	507290.38	710976.32	471350.35	1272890.51	508548.06	756705.52	661178.79	924271.49	1531212.98	2408832.03	849436.60	3022133.69	427502.52	0.00											
+	3246978.04	3192686.04	3304250.19	3527926.22	3299365.15	3227484.13	3392848.59	3217258.28	3724802.01	3225423.80	3304791.63	3395530.36	3488177.08	1783368.57	2744426.31	3346262.04	1748406.25	2367937.82	2793592.34	0.00										
+	2632770.84	2587800.84	3304027.22	2546950.35	3275732.39	3015979.95	2596210.60	2623902.73	2452644.00	2577483.98	3299853.06	2687937.81	2477594.21	1244023.30	332176.77	2345015.85	1113027.54	2308624.51	2545250.82	2516106.34	0.00									
+	2446426.94	2390476.26	2681366.06	2669729.98	2668361.05	2531966.80	2562203.46	2419451.02	2830051.05	2415769.45	2680378.80	2583709.03	2623054.35	846305.07	1902622.60	2475774.62	1340624.28	1627796.89	2048636.36	937315.29	1731543.95	0.00								
+	2476159.16	2425471.08	3051582.57	2482028.79	3026517.30	2791252.82	2484195.22	2461403.22	2467362.23	2425288.34	3048137.61	2559019.29	2416265.40	835012.52	730481.14	2271076.80	869855.80	1994510.55	2294631.90	2019248.19	512165.45	1219715.03	0.00							
+	2309636.25	2277562.42	3097667.80	2090259.74	3065170.38	2778003.85	2206167.06	2310942.73	1891289.64	2251853.95	3092422.53	2316836.85	2021213.33	1569495.77	499884.94	1919176.73	1938521.15	2289545.39	2387609.32	3181108.57	827114.95	2297973.44	1201181.62	0.00						
+	2082699.56	2054742.13	2891374.68	1832638.56	2858109.28	2567124.34	1963241.72	2086767.59	1613805.36	2025257.59	2885896.70	2077086.28	1764633.52	1589384.97	737473.67	1671935.07	2164303.10	2155790.55	2207202.22	3285693.36	1069277.16	2374715.63	1372563.85	291566.86	0.00					
+	506011.48	457366.22	1228827.62	634821.37	1196519.71	912202.38	540538.52	493563.76	870386.06	454233.85	1223628.54	594632.22	594137.91	1333527.83	1951114.12	456350.16	2777851.70	702102.01	554885.42	2894231.61	2132950.43	2037111.92	1971094.46	1868991.08	1669817.46	0.00				
+	1495602.03	1493130.30	2331717.45	1097740.24	2297163.71	2010326.78	1302414.29	1513775.57	757566.26	1447606.61	2325541.48	1420438.45	1046445.28	2017408.29	1692169.58	1031716.94	3032454.60	1982338.07	1829984.93	3798562.45	2008927.01	2862969.90	2173485.31	1294134.29	1002603.96	1300302.35	0.00			
+	1710024.51	1706609.42	2546976.61	1313052.52	2512413.34	2225127.14	1517959.03	1727783.07	967954.52	1661518.53	2540806.67	1636044.53	1262059.07	2110922.16	1643131.95	1245828.06	3027979.20	2168259.09	2034252.83	3893886.49	1969433.86	2956571.20	2184021.22	1206087.24	920205.23	1497185.85	215633.80	0.00		
+	1917901.15	1914909.02	2753947.93	1516666.73	2719403.03	2432710.04	1724227.94	1935887.03	1164208.14	1869662.11	2747766.83	1841939.43	1467145.60	2247356.67	1659517.16	1453860.74	3074968.95	2366970.67	2241322.30	4025343.11	1990836.20	3089158.11	2250367.70	1191192.98	922347.74	1701854.71	422383.78	208549.79	0.00	
+	1944863.88	1940272.79	2782940.30	1550354.00	2748362.32	2460379.78	1754587.62	1962084.12	1203363.07	1895727.87	2776781.84	1872848.92	1499186.61	2221836.45	1607331.45	1480493.20	3026556.49	2372455.71	2257567.82	3996927.15	1939011.97	3061597.56	2206257.15	1135670.50	869863.37	1714410.10	452770.39	237303.38	60252.35	0.00
+}
+	UsedYMatrixLabels ={
+			"Atibaia"
+			"Campinas"
+			"Campo_Bom"
+			"Cataguases"
+			"Gramado"
+			"Ibirama"
+			"Itatiaia"
+			"Jundiai"
+			"Linhares"
+			"Pinhalzinho"
+			"Sapiranga"
+			"Ubatuba"
+			"Vicosa"
+			"Alta_Floresta"
+			"Belem"
+			"Belo_Horizonte"
+			"Boa_Vista"
+			"Campo_Grande"
+			"Centenario_Sul"
+			"Cruzeiro_Sul"
+			"Macapa"
+			"Porto_Velho"
+			"Santarem"
+			"Sao_Luis"
+			"Teresina"
+			"Uberlandia"
+			"Mata_S_Joao"
+			"Aracaju"
+			"Maceio"
+			"S_Jose_Laje"
+}
